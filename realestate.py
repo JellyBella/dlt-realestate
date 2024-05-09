@@ -8,7 +8,7 @@ import os
 import pandas as pd
 
 def get_api_secret_key():
-    return json.loads(access_secret_version("realestateanalytics-420602", "dbt_user_json_key", version_id="1"))
+    return json.loads(access_secret_version("YOUR-GCP-PROJECT-ID", "ACCESS-KEY", version_id="1"))
 
 def access_secret_version(project_id, secret_id, version_id):
     client = secretmanager_v1.SecretManagerServiceClient()
