@@ -9,9 +9,9 @@ This project focuses on extracting data from Realty in AU's API using the DLT pa
 <img src="project_architecture.png">
 </p>
 
-### Why can’t we transform data to a perfect state for analytics use at elT stage?
+### Why don’t we transform data to a perfect state at etl stage for analytics reporting?
 
-Analytics requirements evolves frequently according to stakeholders’ need, which means it is hard to keep source data up to date to satisfy analyst users’ fast changing need. DLT did light data transformation to ensure we have the data in its rawest format(which includes dups or missing data) then analyst can use dbt to clean and organize data to get what business users’ need in a timely manner.
+Analytics requirements evolve frequently according to stakeholders’ need, which means it is hard to keep source data up to date without major disruptions. etl is designed to handle data from a wide variety of sources, irrespective of the original data format or structure. This capability allows organizations to add or modify data sources without major disruptions to their existing data management processes.
 
 ## Connected REPOS
 
