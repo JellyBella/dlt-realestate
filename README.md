@@ -9,7 +9,7 @@ This project focuses on extracting data from Realty in AU's API using the DLT pa
 <img src="project_architecture.png">
 </p>
 
-### Why can’t we transform data to a perfect state for analytics use at once?
+### Why can’t we transform data to a perfect state for analytics use at elT stage?
 
 Analytics requirements evolves frequently according to stakeholders’ need, which means it is hard to keep source data up to date to satisfy analyst users’ fast changing need. DLT did light data transformation to ensure we have the data in its rawest format(which includes dups or missing data) then analyst can use dbt to clean and organize data to get what business users’ need in a timely manner.
 
